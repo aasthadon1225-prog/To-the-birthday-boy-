@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>To The Birthday Boy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio id="bgm" controls autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="page-counter">1 / 1</div>
+
+<div class="book">
+<section class="page"><h1>🎀 To The Birthday Boy 🎀</h1></section>
+
+<section class="page"><h2>Happy Birthday 🎂</h2></section>
+
+<section class="page">
+<h2>Journey of 17 Years ✨</h2>
+<p>Replace image.jpg with your photo.</p>
+<img src="image.jpg" style="max-width:90%;border-radius:20px;">
+</section>
+
+<section class="page"><h2>Happy birthday my love!!🩷</h2><p>I'm so grateful to have you in my life...</p></section>
+
+<section class="page"><h2>Before You Start...</h2><p>This isn't a big gift. But every page was made while thinking about you.</p></section>
+
+<section class="page"><h2>Birthday facts about you!</h2></section>
+
+<section class="page"><h2>If you were....</h2></section>
+
+<section class="page"><h2>If I could give you anything</h2></section>
+
+<section class="page"><h2>Things I Hope Happen to You This Year</h2></section>
+
+<section class="page"><h2>Things I Never Want You to Forget</h2></section>
+
+<section class="page"><h2>A world without you</h2></section>
+
+<section class="page envelope"><h2>Open when you need a hug</h2><button onclick="openLetter(this)">Open</button><div class="letter">Unlimited hugs 🫂🫂🫂</div></section>
+
+<section class="page envelope"><h2>Open when you need my kisses</h2><button onclick="openLetter(this)">Open</button><div class="letter">💋💋💋💋💋</div></section>
+
+<section class="page envelope"><h2>Open when you feel alone</h2><button onclick="openLetter(this)">Open</button><div class="letter">Me hu naa 🫂</div></section>
+
+<section class="page envelope"><h2>Open when you can't sleep</h2><button onclick="openLetter(this)">Open</button><div class="letter">Close your eyes 😴</div></section>
+
+<section class="page envelope"><h2>Open when you miss Radhika</h2><button onclick="openLetter(this)">Open</button><div class="letter">Smile for her ❤️</div></section>
+
+<section class="page"><h2>Birthday Coupon Book</h2></section>
+
+<section class="page"><h2>A Letter To Future You</h2></section>
+
+<section class="page final">
+<h2>🎂 Make A Wish 🎂</h2>
+<div id="candle" onclick="blow()">🕯️</div>
+<p id="wish"></p>
+</section>
+
+</div>
+
+<div class="navigation">
+  <button class="nav-btn prev-btn" onclick="prevPage()" title="Previous page">←</button>
+  <button class="nav-btn next-btn" onclick="nextPage()" title="Next page">→</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
